@@ -1,0 +1,15 @@
+{
+  "env": {
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:@typescript-eslint/recommended", "eslint:recommended", "prettier", "prettier/@typescript-eslint"],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-explicit-any": ["off"],
+    "prettier/prettier": "error"
+  }
+}
