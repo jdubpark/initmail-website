@@ -415,7 +415,7 @@ const contracts = {
       name: "Arbitrum One",
       contracts: {
         Intimail: {
-          address: "0x3b15814922bAB87068E0D2480cacd0F805C0B7e3",
+          address: "0xC80758B5539E8a6749dA3b30f01837B958d577aA",
           abi: [
             {
               inputs: [

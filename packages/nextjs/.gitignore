@@ -38,4 +38,4 @@ yarn-error.log*
 *.tsbuildinfo
 
 # packages
-pnpm-lock.yaml
+# pnpm-lock.yaml

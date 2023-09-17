@@ -15,13 +15,13 @@ import contractsData from '~~/generated/deployedContracts'
 import scaffoldConfig from '~~/scaffold.config'
 
 // @ts-ignore
-// contractsData[42161].Intimail.address = '0x3b15814922bAB87068E0D2480cacd0F805C0B7e3'
+// contractsData[42161].Intimail.address = '0xC80758B5539E8a6749dA3b30f01837B958d577aA'
 
 // if (process.env.NEXT_PUBLIC_NODE_ENV === 'production') {
 // ;(contractsData as any)[42161] = _contractsData[31337]
 // ;(contractsData as any)[42161][0].chainId = '42161'
 // ;(contractsData as any)[42161][0].name = 'Arbitrum'
-// ;(contractsData as any)[42161][0].Intimail.address = '0x3b15814922bAB87068E0D2480cacd0F805C0B7e3'
+// ;(contractsData as any)[42161][0].Intimail.address = '0xC80758B5539E8a6749dA3b30f01837B958d577aA'
 // }
 
 export type GenericContractsDeclaration = {
